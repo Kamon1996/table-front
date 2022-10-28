@@ -1,0 +1,23 @@
+.table {
+  &__wrapper {
+    overflow: auto;
+    max-height: 680px;
+  }
+  th {
+    background-color: aqua;
+  }
+
+  tr:nth-child(2n) {
+    background-color: rgb(229, 240, 193);
+  }
+  th,
+  td {
+    border: 1px solid;
+    padding: 5px;
+  }
+  .no-content {
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.table-filters {
+  display: flex;
+  gap: 5px;
+
+  .select,
+  .text-input {
+    border-radius: 5px;
+  }
+
+  .select {
+    padding: 6px 12px;
+    font-size: 20px;
+    background: #40c8ff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .text-input {
+    border: 1px solid;
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .btn-submit {
+    cursor: pointer;
+    padding: 5px 15px;
+    background: lightpink;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+}

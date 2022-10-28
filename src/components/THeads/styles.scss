@@ -1,0 +1,12 @@
+.head {
+  &--sortable {
+    cursor: pointer;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-width: 80px;
+  }
+}
