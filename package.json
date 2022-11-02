@@ -1,6 +1,7 @@
 {
-  "name": "my-mantine-app",
+  "name": "table-front",
   "version": "0.1.0",
+  "homepage": "https://kamon1996.github.io/table-front/",
   "private": true,
   "dependencies": {
     "@tabler/icons": "^1.78.1",
@@ -19,6 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
